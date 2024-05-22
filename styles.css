@@ -36,7 +36,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 nav ul li a {
@@ -53,10 +53,10 @@ section {
     list-style-type: none;
     max-width: 800px;
     margin: 40px auto;
-    padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
     text-align: center;
+    padding-right: 60px;
 }
 
 #box-contato img{
