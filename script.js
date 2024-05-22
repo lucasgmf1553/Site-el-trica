@@ -14,3 +14,11 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+window.addEventListener('scroll', function() {
+    // Verifica se a posição atual do scroll é igual à altura total da página menos a altura da janela
+    if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight) {
+      document.getElementById('footer').style.display = 'block'; // Exibe o footer
+    } else {
+      document.getElementById('footer').style.display = 'none'; // Oculta o footer
+    }
+  });
